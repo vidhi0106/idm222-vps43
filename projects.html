@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h3> <a class="home" href = index.html>Vidhi Shah </a>  </h3>
+            
+            <nav>
+              <ul id="menuList">
+                <li class="proj"> <a href="projects.html">Projects </a></li>
+                <li class="arts"> <a href="finearts.html">Fine Arts  </a></li>
+                <li class="resume"> <a href="resume.html">Resume </a></li>
+              </ul>  
+    
+            </nav>
+            <img src="graphics/hamburger-menu.png" alt="hamburger menu" class="hamburger-menu" onclick = "togglemenu()">
+    
+        </div>
+
+
+        <div class="proj-horizontal">
+        <div class="proj-wokworks">
+            <div><h2 class="proj-title"> <a class="proj-title" href="wokworks.html"> Wok Works </a> </h2></div>
+            <div><h4 class="proj-desp">UX Research, UX Design and UI Design</h4> </div>
+            <div><p>Created a mobile application for WokWorks, a food truck chain around Philadelphia serving Asian halal food. 
+                WokWorks is known for its extremely customizable menu and its friendly staff. We strived to create an app that 
+                showcases these features through personal touches that mimic the WokWorks experience.</p></div>
+        </div>
+        <div class="wokworks-img">
+        <img class="wokworks" src="graphics/wokworks.png" alt="Wokworks app design image and logo" >
+        </div>
+        </div>
+
+        <div class="proj-horizontal">
+            <div class="proj-wokworks">
+                <div><h2 class="proj-title"> <a class="proj-title" href="instyle.html"> Instyle </a> </h2></div>
+                <div><h4 class="proj-desp">UX Design, UI Design and Micro-interactions</h4> </div>
+                <div><p>InStyle is a mobile app that allows you to shop for clothes online. They sell trendy clothes at 
+                    affordable prices which attracts a huge clientele. The app is fun and light 
+                    with a lot of emphasize on micro interactions.</p></div>
+            </div>
+            <div class="wokworks-img">
+            <img class="wokworks" src="graphics/InStyle-cover.png" alt="Wokworks app design image and logo" >
+            </div>
+            </div>
+
+
+    
+    </div>
+    
+
+
+
+
+
+
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+    
+        function togglemenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "130px";
+            }
+            else
+            {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    
+    </script>
+
+ <footer>
+        <div class="footer">
+        <div class="email-div">
+        <a href ="mailto:vps43@drexel.edu" target="_blank" rel="noopener noreferrer"> <img src = "graphics/email-logo.png" class="email" alt="email logo"></a> 
+        </div> 
+        <div class="linkedin-div">
+        <a href="https://www.linkedin.com/in/vidhi-shah-226502219/" target="_blank" rel="noopener noreferrer"><img src="graphics/linkedin.png" class="linkedin" alt ="linkedIn Logo"></a>
+        </div> 
+        </div>
+    </footer>   
+</body>
+</html>

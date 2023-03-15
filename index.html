@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <div class="navbar">
+        <h3> <a class="home" href = index.html>Vidhi Shah </a>  </h3>
+        
+        <nav>
+          <ul id="menuList">
+            <li class="proj"> <a href="projects.html">Projects </a></li>
+            <li class="arts"> <a href="finearts.html">Fine Arts  </a></li>
+            <li class="resume"> <a href="resume.html">Resume </a></li>
+          </ul>  
+
+        </nav>
+        <img src="graphics/hamburger-menu.png" alt="hamburger menu" class="hamburger-menu" onclick = "togglemenu()">
+
+    </div>
+
+</div>
+
+<div class="flex">
+<img src="graphics/background.png" alt="background" class="background-image" >
+
+<div class="hello" ><h1>Hello!</h1></div>
+
+<div class="intro"> <h2 class="intro-animation">I'm Vidhi, a UI/UX Designer</h2></div>
+
+<div class = buttons>
+    <div>
+        <h3 class="sub-button-1"> <a href = projects.html>  Projects </a> </h3>
+    </div>
+    <div>
+        <h3 class="sub-button-2"> <a href = finearts.html>  Fine Art  </a> </h3>
+    </div>
+    <div>
+        <h3 class="sub-button-3"> <a href = resume.html>  Resume </a>  </h3>
+    </div>
+
+</div>
+
+</div>
+
+
+
+<script>
+    var menuList = document.getElementById("menuList");
+    menuList.style.maxHeight = "0px";
+
+    function togglemenu(){
+        if(menuList.style.maxHeight == "0px")
+        {
+            menuList.style.maxHeight = "130px";
+        }
+        else
+        {
+            menuList.style.maxHeight = "0px";
+        }
+    }
+
+</script>
+
+<footer>
+    <div class="footer">
+    <div class="email-div">
+    <a href ="mailto:vps43@drexel.edu" target="_blank" rel="noopener noreferrer"> <img src = "graphics/email-logo.png" class="email" alt="email logo"></a> 
+    </div> 
+    <div class="linkedin-div">
+    <a href="https://www.linkedin.com/in/vidhi-shah-226502219/" target="_blank" rel="noopener noreferrer"><img src="graphics/linkedin.png" class="linkedin" alt ="linkedIn Logo"></a>
+    </div> 
+    </div>
+</footer>
+</body>
+</html>
