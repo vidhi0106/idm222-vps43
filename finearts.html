@@ -5,8 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fine Arts</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <div class="container">
+        <div class="navbar">
+            <h3> <a class="home" href = index.html>Vidhi Shah </a>  </h3>
+            
+            <nav>
+              <ul id="menuList">
+                <li class="proj"> <a href="projects.html">Projects </a></li>
+                <li class="arts"> <a href="finearts.html">Fine Arts  </a></li>
+                <li class="resume"> <a href="resume.html">Resume </a></li>
+              </ul>  
     
+            </nav>
+            <img src="graphics/hamburger-menu.png" alt="hamburger menu" class="hamburger-menu" onclick = "togglemenu()">
+    
+        </div>
+        <div class="row"> 
+            <div class="column">
+              <img src="graphics/art1.jpg" alt="artwork" style="width:100%">
+              <img src="graphics/art5.jpg" alt="artwork" style="width:100%">
+              <img src="graphics/art3.jpg" alt="artwork" style="width:100%">
+              <img src="graphics/art6.jpg" alt="artwork" style="width:100%">
+        
+            </div>
+            <div class="column">
+              <img src="graphics/art2.png" alt="artwork" style="width:100%">
+              <img src="graphics/art4.jpg" alt="artwork" style="width:100%">
+              <img src="graphics/art7.jpg" alt="artwork" style="width:100%">
+              <img src="graphics/art8.png" alt="artwork" style="width:100%">
+            
+            </div>  
+            <div class="column">
+              <img src="graphics/art9.jpg" alt="artwork" style="width:100%">
+              <img src="graphics/art10.jpg" alt="artwork" style="width:100%">
+              <img src="graphics/art11.jpg" alt="artwork" style="width:100%">
+              <img src="graphics/art12.png" alt="artwork" style="width:100%">
+             
+            </div>
+          </div>
+
+
+
+
+
+
+    </div>
+
+
+    
+
+
+
+      <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+    
+        function togglemenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "130px";
+            }
+            else
+            {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    
+    </script>
+    
+    <footer>
+        <div class="footer">
+        <div class="email-div">
+        <a href ="mailto:vps43@drexel.edu" target="_blank" rel="noopener noreferrer"> <img src = "graphics/email-logo.png" class="email" alt="email logo"></a> 
+        </div> 
+        <div class="linkedin-div">
+        <a href="https://www.linkedin.com/in/vidhi-shah-226502219/" target="_blank" rel="noopener noreferrer"><img src="graphics/linkedin.png" class="linkedin" alt ="linkedIn Logo"></a>
+        </div> 
+        </div>
+    </footer>
 </body>
 </html>
