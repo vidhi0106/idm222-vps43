@@ -153,6 +153,14 @@ text-decoration: none;
 color:white;
 }
 
+h2 a :hover{
+    color:white;
+    }
+
+a:hover h2{
+color:white;
+}
+
 a:active{
 text-decoration: none;
 color: black;
