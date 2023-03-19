@@ -153,14 +153,6 @@ text-decoration: none;
 color:white;
 }
 
-h2 a :hover{
-    color:white;
-    }
-
-a:hover h2{
-color:white;
-}
-
 a:active{
 text-decoration: none;
 color: black;
@@ -233,6 +225,7 @@ background:#665415;
 color: white;
 }
 
+
 .sub-button-2{
 background: #FFD9D9;
 border: 1px solid #4F0D0D;
@@ -264,7 +257,7 @@ text-decoration: none;
 
 .buttons{
 position: absolute;
-top: 55%;
+top: 62%;
 left: 50%;
 width: 550px;
 text-align: left;
@@ -572,6 +565,20 @@ width:100%;
   }
 }
 
+@media only screen and (max-width: 1400px){
+.buttons{
+position: absolute;
+top: 62%;
+left: 50%;
+width: 550px;
+text-align: left;
+margin: 0px;
+display: flex;
+flex-direction: row;
+}
+
+}
+
 
 
 
@@ -608,7 +615,7 @@ width:100%;
 
     .buttons {
         position: absolute;
-        top: 50%;
+        top: 60%;
         left: 50%;
         width: 550px;
         text-align: left;
@@ -637,7 +644,7 @@ width:100%;
     }
     .buttons {
         position: absolute;
-        top: 48%;
+        top: 55%;
         left: 50%;
         width: 550px;
         text-align: left;
@@ -789,6 +796,10 @@ width:100%;
         width: 90%;
         padding-top: 40px;
     }
+    .buttons {
+        position: absolute;
+        top: 50%;
+        left: 50%;}
 
 
 }
@@ -945,7 +956,7 @@ width:100%;
 
         .intro {
             position: absolute;
-            top: 50%;
+            top: 52%;
             left: 28%;
             width: 550px;
             text-align: left;
@@ -953,7 +964,7 @@ width:100%;
         }
     .buttons {
     position: absolute;
-    top: 58%;
+    top: 65%;
     left: 28%;
     width: 550px;
     text-align: left;
@@ -984,10 +995,14 @@ width:100%;
     }
     .intro {
         left: 17%;
-        top:47%;}
+        top:50%;}
     .buttons{
     left:17%;
     top:55%;
+    }
+    .buttons{
+    left: 17%;
+    top: 62%;
     }
 }
 
@@ -998,11 +1013,11 @@ width:100%;
     }
     .intro {
         left: 15%;
-        top: 45%;
+        top: 48%;
     }
     .buttons {
         left: 13%;
-        top: 53%;
+        top: 60%;
     }
 }
 
@@ -1013,11 +1028,11 @@ width:100%;
     }
     .intro {
         left: 12%;
-        top: 45%;
+        top: 48%;
     }
     .buttons {
         left: 10%;
-        top: 53%;
+        top: 60%;
     }
 }
 
@@ -1028,13 +1043,24 @@ width:100%;
     }
     .intro {
         left: 10%;
-        top: 45%;
+        top: 47%;
     }
     .buttons {
         left: 7%;
-        top: 53%;
+        top: 58%;
     }
 }
 
+@media only screen and (max-width: 365px){
+    .intro {
+        left: 5%;
+        top: 43%;
+    }
+
+    .buttons {
+        left: 4%;
+        top: 55%;
+    }
+}
 
 
