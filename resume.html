@@ -5,8 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="container">
+        <div class="navbar">
+            <h3> <a class="home" href = index.html>Vidhi Shah </a>  </h3>
+            
+            <nav>
+              <ul id="menuList">
+                <li class="proj"> <a href="projects.html">Projects </a></li>
+                <li class="arts"> <a href="finearts.html">Fine Arts  </a></li>
+                <li class="resume"> <a href="resume.html">Resume </a></li>
+              </ul>  
     
+            </nav>
+            <img src="graphics/hamburger-menu.png" alt="hamburger menu" class="hamburger-menu" onclick = "togglemenu()">
+    
+        </div>
+    <h4 class="resume-link"><a class="resume-link" href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:2e4ad3dc-4db9-3b4f-9a62-336a56596466" target="_blank">Resume PDF</a></h4>
+    <div class="resume-img-div"><img class="resume-img" src="graphics/Resume.png" alt="resume image"></div>
+
+    </div>
+
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+    
+        function togglemenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "130px";
+            }
+            else
+            {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    
+    </script>
+    <footer>
+    <div class="footer">
+    <div class="email-div">
+    <a href ="mailto:vps43@drexel.edu" target="_blank" rel="noopener noreferrer"> <img src = "graphics/email-logo.png" class="email" alt="email logo"></a> 
+    </div> 
+    <div class="linkedin-div">
+    <a href="https://www.linkedin.com/in/vidhi-shah-226502219/" target="_blank" rel="noopener noreferrer"><img src="graphics/linkedin.png" class="linkedin" alt ="linkedIn Logo"></a>
+    </div> 
+    </div>
+</footer>
 </body>
 </html>
