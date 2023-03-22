@@ -1008,7 +1008,7 @@ flex-direction: row;
         display: flex;
         flex-direction: column;
         width: 91%;
-        margin: 30px;
+        margin:auto;
         line-height: 25px;
         margin-bottom:0px;
         margin-top:15px;
