@@ -920,8 +920,31 @@ flex-direction: row;
         margin: 30px 98px 0px 0px;
         display: flex;
         justify-content: right;
+    } 
+    .flex-horizontal-3 {
+        display: flex;
+        flex-direction: column;
     }
     
+    .proj-intro-2 {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin: auto;
+        line-height: 25px;
+    }
+
+    .proj-intro {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin: auto;
+        line-height: 25px;
+    }
+    .proj-info{
+    margin-top:0px;
+    }
+
 
 }
 
